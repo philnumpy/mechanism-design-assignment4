@@ -1,0 +1,1323 @@
+{
+  "chosen_path": "ABEF",
+  "path_cost": 5,
+  "truthful": [
+    {
+      "edge": "AB",
+      "true_cost": 3,
+      "on_path": true,
+      "cheapest_without_edge": 6,
+      "path_without_edge": "ACEF",
+      "payment": 4,
+      "utility": 1
+    },
+    {
+      "edge": "AC",
+      "true_cost": 2,
+      "on_path": false,
+      "cheapest_without_edge": 5,
+      "path_without_edge": "ABEF",
+      "payment": 0,
+      "utility": 0
+    },
+    {
+      "edge": "BD",
+      "true_cost": 2,
+      "on_path": false,
+      "cheapest_without_edge": 5,
+      "path_without_edge": "ABEF",
+      "payment": 0,
+      "utility": 0
+    },
+    {
+      "edge": "BE",
+      "true_cost": 1,
+      "on_path": true,
+      "cheapest_without_edge": 6,
+      "path_without_edge": "ACEF",
+      "payment": 2,
+      "utility": 1
+    },
+    {
+      "edge": "CE",
+      "true_cost": 3,
+      "on_path": false,
+      "cheapest_without_edge": 5,
+      "path_without_edge": "ABEF",
+      "payment": 0,
+      "utility": 0
+    },
+    {
+      "edge": "CF",
+      "true_cost": 5,
+      "on_path": false,
+      "cheapest_without_edge": 5,
+      "path_without_edge": "ABEF",
+      "payment": 0,
+      "utility": 0
+    },
+    {
+      "edge": "DF",
+      "true_cost": 2,
+      "on_path": false,
+      "cheapest_without_edge": 5,
+      "path_without_edge": "ABEF",
+      "payment": 0,
+      "utility": 0
+    },
+    {
+      "edge": "EF",
+      "true_cost": 1,
+      "on_path": true,
+      "cheapest_without_edge": 7,
+      "path_without_edge": "ACF",
+      "payment": 3,
+      "utility": 2
+    }
+  ],
+  "total_payment": 9,
+  "sweeps": {
+    "AB": [
+      {
+        "reported_cost": 0.0,
+        "on_path": true,
+        "payment": 4.0,
+        "utility": 1.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 0.5,
+        "on_path": true,
+        "payment": 4.0,
+        "utility": 1.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 1.0,
+        "on_path": true,
+        "payment": 4.0,
+        "utility": 1.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 1.5,
+        "on_path": true,
+        "payment": 4.0,
+        "utility": 1.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 2.0,
+        "on_path": true,
+        "payment": 4.0,
+        "utility": 1.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 2.5,
+        "on_path": true,
+        "payment": 4.0,
+        "utility": 1.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 3.0,
+        "on_path": true,
+        "payment": 4.0,
+        "utility": 1.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 3.5,
+        "on_path": true,
+        "payment": 4.0,
+        "utility": 1.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 4.0,
+        "on_path": true,
+        "payment": 4.0,
+        "utility": 1.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 4.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 5.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 5.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 6.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 6.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 7.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 7.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 8.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 8.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 9.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 9.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 10.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      }
+    ],
+    "AC": [
+      {
+        "reported_cost": 0.0,
+        "on_path": true,
+        "payment": 1.0,
+        "utility": -1.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 0.5,
+        "on_path": true,
+        "payment": 1.0,
+        "utility": -1.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 1.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 1.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 2.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 2.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 3.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 3.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 4.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 4.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 5.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 5.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 6.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 6.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 7.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 7.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 8.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 8.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 9.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 9.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 10.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      }
+    ],
+    "BD": [
+      {
+        "reported_cost": 0.0,
+        "on_path": true,
+        "payment": 0.0,
+        "utility": -2.0,
+        "chosen_path": "ABDF"
+      },
+      {
+        "reported_cost": 0.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 1.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 1.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 2.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 2.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 3.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 3.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 4.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 4.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 5.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 5.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 6.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 6.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 7.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 7.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 8.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 8.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 9.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 9.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 10.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      }
+    ],
+    "BE": [
+      {
+        "reported_cost": 0.0,
+        "on_path": true,
+        "payment": 2.0,
+        "utility": 1.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 0.5,
+        "on_path": true,
+        "payment": 2.0,
+        "utility": 1.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 1.0,
+        "on_path": true,
+        "payment": 2.0,
+        "utility": 1.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 1.5,
+        "on_path": true,
+        "payment": 2.0,
+        "utility": 1.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 2.0,
+        "on_path": true,
+        "payment": 2.0,
+        "utility": 1.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 2.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 3.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 3.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 4.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 4.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 5.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 5.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 6.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 6.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 7.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 7.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 8.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 8.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 9.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 9.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 10.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACEF"
+      }
+    ],
+    "CE": [
+      {
+        "reported_cost": 0.0,
+        "on_path": true,
+        "payment": 2.0,
+        "utility": -1.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 0.5,
+        "on_path": true,
+        "payment": 2.0,
+        "utility": -1.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 1.0,
+        "on_path": true,
+        "payment": 2.0,
+        "utility": -1.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 1.5,
+        "on_path": true,
+        "payment": 2.0,
+        "utility": -1.0,
+        "chosen_path": "ACEF"
+      },
+      {
+        "reported_cost": 2.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 2.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 3.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 3.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 4.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 4.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 5.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 5.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 6.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 6.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 7.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 7.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 8.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 8.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 9.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 9.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 10.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      }
+    ],
+    "CF": [
+      {
+        "reported_cost": 0.0,
+        "on_path": true,
+        "payment": 3.0,
+        "utility": -2.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 0.5,
+        "on_path": true,
+        "payment": 3.0,
+        "utility": -2.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 1.0,
+        "on_path": true,
+        "payment": 3.0,
+        "utility": -2.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 1.5,
+        "on_path": true,
+        "payment": 3.0,
+        "utility": -2.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 2.0,
+        "on_path": true,
+        "payment": 3.0,
+        "utility": -2.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 2.5,
+        "on_path": true,
+        "payment": 3.0,
+        "utility": -2.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 3.0,
+        "on_path": true,
+        "payment": 3.0,
+        "utility": -2.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 3.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 4.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 4.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 5.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 5.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 6.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 6.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 7.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 7.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 8.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 8.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 9.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 9.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 10.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      }
+    ],
+    "DF": [
+      {
+        "reported_cost": 0.0,
+        "on_path": true,
+        "payment": 0.0,
+        "utility": -2.0,
+        "chosen_path": "ABDF"
+      },
+      {
+        "reported_cost": 0.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 1.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 1.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 2.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 2.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 3.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 3.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 4.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 4.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 5.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 5.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 6.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 6.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 7.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 7.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 8.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 8.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 9.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 9.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 10.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ABEF"
+      }
+    ],
+    "EF": [
+      {
+        "reported_cost": 0.0,
+        "on_path": true,
+        "payment": 3.0,
+        "utility": 2.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 0.5,
+        "on_path": true,
+        "payment": 3.0,
+        "utility": 2.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 1.0,
+        "on_path": true,
+        "payment": 3.0,
+        "utility": 2.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 1.5,
+        "on_path": true,
+        "payment": 3.0,
+        "utility": 2.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 2.0,
+        "on_path": true,
+        "payment": 3.0,
+        "utility": 2.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 2.5,
+        "on_path": true,
+        "payment": 3.0,
+        "utility": 2.0,
+        "chosen_path": "ABEF"
+      },
+      {
+        "reported_cost": 3.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 3.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 4.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 4.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 5.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 5.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 6.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 6.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 7.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 7.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 8.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 8.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 9.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 9.5,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACF"
+      },
+      {
+        "reported_cost": 10.0,
+        "on_path": false,
+        "payment": 0.0,
+        "utility": 0.0,
+        "chosen_path": "ACF"
+      }
+    ]
+  },
+  "robustness": [
+    {
+      "edge": "AB",
+      "utility_truthful": 1.0,
+      "best_utility_any_report": 1.0,
+      "max_gain_from_lying": 0.0
+    },
+    {
+      "edge": "AC",
+      "utility_truthful": 0.0,
+      "best_utility_any_report": 0.0,
+      "max_gain_from_lying": 0.0
+    },
+    {
+      "edge": "BD",
+      "utility_truthful": 0.0,
+      "best_utility_any_report": 0.0,
+      "max_gain_from_lying": 0.0
+    },
+    {
+      "edge": "BE",
+      "utility_truthful": 1.0,
+      "best_utility_any_report": 1.0,
+      "max_gain_from_lying": 0.0
+    },
+    {
+      "edge": "CE",
+      "utility_truthful": 0.0,
+      "best_utility_any_report": 0.0,
+      "max_gain_from_lying": 0.0
+    },
+    {
+      "edge": "CF",
+      "utility_truthful": 0.0,
+      "best_utility_any_report": 0.0,
+      "max_gain_from_lying": 0.0
+    },
+    {
+      "edge": "DF",
+      "utility_truthful": 0.0,
+      "best_utility_any_report": 0.0,
+      "max_gain_from_lying": 0.0
+    },
+    {
+      "edge": "EF",
+      "utility_truthful": 2.0,
+      "best_utility_any_report": 2.0,
+      "max_gain_from_lying": 0.0
+    }
+  ]
+}
